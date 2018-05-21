@@ -11,11 +11,7 @@ import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
-/**
- * 趣味聊天的服务端程序
- * @author keven
- *
- */
+
 //声明websocket某个服务端的地址
 @ServerEndpoint("/chatRoomServer")
 public class ChatRoomServer {
